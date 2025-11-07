@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body, html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+.section-bg {
+  @apply bg-gradient-to-b from-[#12141C] to-[#12141C] relative;
+  min-height: 20vh; 
+}
+
+.motion-div {
+  @apply mb-8;
+  min-height: 40vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
